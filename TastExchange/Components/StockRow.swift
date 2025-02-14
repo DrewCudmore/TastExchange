@@ -1,5 +1,5 @@
 //
-//  RestaurantStockRow.swift
+//  StockRow.swift
 //  TastExchange
 //
 //  Created by Drew Cudmore on 2/14/25.
@@ -8,8 +8,8 @@
 
 import SwiftUI
 
-struct RestaurantStockRow: View {
-    let stock: RestaurantStock
+struct StockRow: View {
+    let stock: Stock
 
     var body: some View {
         HStack {

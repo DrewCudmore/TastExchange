@@ -1,5 +1,5 @@
 //
-//  RestaurantStock.swift
+//  Stock.swift
 //  TastExchange
 //
 //  Created by Drew Cudmore on 2/14/25.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct RestaurantStock: Identifiable, Codable {
+struct Stock: Identifiable, Codable {
     let id = UUID()
     let name: String
     let shortName: String

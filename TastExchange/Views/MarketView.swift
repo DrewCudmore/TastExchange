@@ -15,7 +15,7 @@ struct MarketView: View {
             ScrollView {
                 LazyVStack(spacing: 12) {
                     ForEach(apiService.stocks) { stock in
-                        RestaurantStockRow(stock: stock)
+                        StockRow(stock: stock)
                     }
                 }
                 .padding()

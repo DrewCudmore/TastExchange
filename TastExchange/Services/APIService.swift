@@ -11,7 +11,7 @@ import Foundation
 import Foundation
 
 class APIService: ObservableObject {
-    @Published var stocks: [RestaurantStock] = []
+    @Published var stocks: [Stock] = []
     var timer: Timer?
 
     init() {
@@ -37,7 +37,7 @@ class APIService: ObservableObject {
                 DispatchQueue.main.async {
                     do {
                         print("Hit API")
-                        self.stocks = try JSONDecoder().decode([RestaurantStock].self, from: data)
+                        self.stocks = try JSONDecoder().decode([Stock].self, from: data)
                     } catch {
                         print("Decoding error: \(error)")
                     }
