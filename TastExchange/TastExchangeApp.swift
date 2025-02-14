@@ -11,7 +11,7 @@ import SwiftUI
 struct TastExchangeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MarketView()
         }
     }
 }
