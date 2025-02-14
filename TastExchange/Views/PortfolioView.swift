@@ -15,5 +15,6 @@ struct PortfolioView: View {
         NavigationStack {
         }
             .navigationTitle("Portfolio")
+            .background(Color.black.edgesIgnoringSafeArea(.all))
     }
 }

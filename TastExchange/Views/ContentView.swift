@@ -30,6 +30,8 @@ struct ContentView: View {
                     Label("Profile", systemImage: "person.fill")
                 }
         }
+        .background(Color.black.edgesIgnoringSafeArea(.all))
+        .accentColor(.white)
     }
 }
 
